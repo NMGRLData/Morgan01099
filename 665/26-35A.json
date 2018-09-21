@@ -1,0 +1,163 @@
+{
+    "acquisition_software": "pychron py3/18.2",
+    "aliquot": 35,
+    "analysis_type": "unknown",
+    "analyst_name": "root",
+    "collection_version": "1.0:1.0",
+    "comment": "",
+    "commit": "b4ade6213c73f107ff3133d2f4f64e9afee0ed19",
+    "conditionals": null,
+    "data_reduction_software": "pychron py3/18.2",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 1
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 1
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 1
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 1
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-09-20T17:07:08",
+                "title": "iServer Hum.",
+                "value": 55.1
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-09-20T17:47:28",
+                "title": "Building",
+                "value": 99.5
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-09-20T17:44:26",
+                "title": "Lab",
+                "value": 87.2
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-09-20T16:45:42",
+                "title": "Jan Decabin",
+                "value": 2.2
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-09-20T16:06:28",
+                "title": "Cold Finger",
+                "value": 70.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-09-20T16:29:44",
+                "title": "iServer Temp.",
+                "value": 72.1
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-09-20T17:55:39",
+                "title": "Coolant",
+                "value": 16.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-09-20T16:14:27",
+                "title": null,
+                "value": 35.0671550671551
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "extraction": "jan_co2_video.py",
+    "identifier": "66526",
+    "increment": 0,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-298",
+    "irradiation_level": "A",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "00000"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "00000"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "00000"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "00000"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "00000"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "00000"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "Jan",
+    "material": "Sanidine",
+    "measurement": "jan_unknown120_60_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Morgan, L",
+    "project": "Morgan01099",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Morgan01099",
+    "sample": "YNP-14-1111.1",
+    "source": {
+        "emission": 520.299,
+        "trap": 198.483
+    },
+    "spec_sha": "9cccf2c293e933b02f8da1f5ae913153f1591179",
+    "timestamp": "2018-09-20T18:03:47.416335",
+    "tripped_conditional": null,
+    "username": "root",
+    "uuid": "bf3fe646-2a50-4055-948b-89223bfd2f74",
+    "whiff_result": null
+}
