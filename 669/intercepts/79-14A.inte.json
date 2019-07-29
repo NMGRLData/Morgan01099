@@ -1,58 +1,136 @@
 {
     "Ar36": {
-        "error": 0.00029242779487215887,
+        "error": 0.0002924277940571509,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
-            "std_devs": 2
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "Linear",
-        "value": 0.013075660500617254
+        "fn": 114,
+        "include_baseline_error": false,
+        "n": 120,
+        "outlier_excluded": [
+            0,
+            99,
+            68,
+            69,
+            84,
+            87
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.013075660542658147
     },
     "Ar37": {
-        "error": 0.009865828405545141,
+        "error": 0.009865828380838035,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
-            "std_devs": 2
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
-        "value": -0.003280438262545754
+        "fit": "Linear",
+        "fn": 115,
+        "include_baseline_error": false,
+        "n": 120,
+        "outlier_excluded": [
+            42,
+            50,
+            75,
+            91,
+            108
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": -0.0032804383734743956
     },
     "Ar38": {
-        "error": 0.005222836837017093,
+        "error": 0.00522283681801188,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
-            "std_devs": 2
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
-        "value": 0.07539126498534995
+        "fit": "Linear",
+        "fn": 114,
+        "include_baseline_error": false,
+        "n": 120,
+        "outlier_excluded": [
+            97,
+            98,
+            70,
+            48,
+            53,
+            90
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.07539126554263686
     },
     "Ar39": {
-        "error": 0.009634269403771446,
+        "error": 0.009634269593294735,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
-            "std_devs": 2
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "Linear",
-        "value": 0.5043574681316292
+        "fn": 112,
+        "include_baseline_error": false,
+        "n": 120,
+        "outlier_excluded": [
+            96,
+            36,
+            68,
+            101,
+            102,
+            74,
+            78,
+            31
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 0.5043574687012985
     },
     "Ar40": {
-        "error": 0.009376140831521385,
+        "error": 0.009376141202320184,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
             "iterations": 1,
-            "std_devs": 2
+            "std_devs": 2,
+            "use_iqr_filtering": false,
+            "use_standard_deviation_filtering": false
         },
         "fit": "Linear",
-        "value": 3.4596575216485217
+        "fn": 112,
+        "include_baseline_error": false,
+        "n": 120,
+        "outlier_excluded": [
+            96,
+            99,
+            44,
+            16,
+            86,
+            118,
+            58,
+            62
+        ],
+        "reviewed": true,
+        "user_excluded": [],
+        "value": 3.459657523823383
     },
     "Ar41": {
         "error": 0.0021062791606962267,
